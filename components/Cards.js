@@ -65,6 +65,10 @@ function createArticle(article) {
 
     img.src = article.authorPhoto
 
+    card.addEventListener('click', () => {
+        console.log(article.headline)
+      })
+
     return card
 }
 
